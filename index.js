@@ -13,8 +13,8 @@ let name =["Ada","Brendan","Ali"];
 writeCards(name,"birthday");
 
 function countDown(x){
-while(x>1){
-  console.log(x-1);
-  x-1;
+while(x>-1){
+  console.log(x);
+  x=x-1;
 }
 }
